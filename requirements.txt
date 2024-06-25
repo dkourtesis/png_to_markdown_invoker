@@ -1,0 +1,5 @@
+functions-framework==3.*
+requests==2.*
+google-cloud-storage==2.*
+tenacity==8.*
+python-dotenv==0.19.*
