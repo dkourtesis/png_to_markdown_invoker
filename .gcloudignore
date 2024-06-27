@@ -4,4 +4,4 @@
 __pycache__/
 .venv/
 .env
-local_test_data/
+temp/

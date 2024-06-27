@@ -91,7 +91,9 @@ These commands will send a simulated Cloud Storage event to your locally running
    --trigger-resource sonnetpdfs `
    --entry-point png_to_markdown_invoker `
    --env-vars-file .env.yaml `
-   --project experiments-422206
+   --project experiments-422206 `
+   --timeout 540s `
+   --gen2
    ```
 4. Wait for the deployment to complete. GCP will provide a URL for your deployed function.
 
